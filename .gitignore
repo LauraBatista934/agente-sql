@@ -1,0 +1,15 @@
+# Credenciais
+.env
+
+# Banco gerado pelo seed.py
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editores
+.vscode/
+.idea/
