@@ -16,9 +16,9 @@
 
 Ferramentas de análise de dados normalmente exigem duas habilidades ao mesmo tempo: entender o negócio **e** saber escrever SQL. Quem está começando costuma travar na sintaxe (JOIN, GROUP BY, funções de data) e acaba pedindo a consulta para outra pessoa.
 
-Este projeto testa uma ideia simples: **e se a pessoa só precisasse perguntar?** O agente lê o schema do banco, entende a pergunta em linguagem natural e devolve o SQL — mas nunca executa nada sem passar por uma camada de validação.
+Este projeto testa uma ideia simples: **e se a pessoa só precisasse perguntar?** O agente lê o schema do banco, entende a pergunta em linguagem natural e devolve o SQL, mas nunca executa nada sem passar por uma camada de validação.
 
-O objetivo não é "deixar a IA solta no banco". É o contrário: **usar a IA para escrever a consulta e usar engenharia para garantir que ela seja segura.**
+O objetivo não é "deixar a IA solta no banco", o objetivo é: **usar a IA para escrever a consulta e usar engenharia para garantir que ela seja segura.**
 
 ---
 
